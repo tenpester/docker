@@ -24,7 +24,4 @@ RUN apt-get install -y \
 
 RUN git clone https://github.com/danielmiessler/SecLists /usr/share/seclists
 
-# For installing other Kali metapackages check https://tools.kali.org/kali-metapackages
-#RUN apt-get update && apt-cache search kali-linux && apt-get install -y kali-tools-top10
-
 CMD ["/bin/bash"]
